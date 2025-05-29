@@ -121,23 +121,24 @@ http://localhost:8080/MarkWebApp/
 
 ## 🖼️ Screenshots
 
-### 🏠 Home Page
+###  Home Page
 ![Home](Sample_Screenshots/Home.png)
 
-### ➕ Add Marks Page
-![Add](screenshots/add.png)
+###  Add Marks Page
+![Add](Sample_Screenshots/Add2.png)
 
-### 🔍 Search Student
-![Search](screenshots/search.png)
+###  Update Record
+![Update](Sample_Screenshots/Update2.png)
 
-### ❌ Delete Record
-![Delete](screenshots/delete.png)
+###  Delete Record
+![Delete](Sample_Screenshots/Delete2.png)
 
-### 🆕 Update Record
-![Update](screenshots/update.png)
+###  Display Marks
+![Display](Sample_Screenshots/Display2.png)
 
-### 📋 Display Marks
-![Display](screenshots/display.png)
+### Generate Report
+#### Marks above threshold
+![Report](Sample_Screenshots/Report22.png)
 
 ## 🎯 Application Usage
 
