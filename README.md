@@ -1,20 +1,23 @@
 
 # Student Mark Management System
 
-A comprehensive web application for managing student examination marks built with JSP, Servlets, and MySQL following MVC architecture principles.
+An easy-to-use web application designed to manage student exam marks efficiently. Built using JSP, Servlets, and MySQL, it follows the MVC architecture to ensure clean code structure and smooth functionality.
+
 
 ## 🚀 Features
 
-- **Complete CRUD Operations**: Add, Update, Delete, and Display student marks  
-- **Advanced Search**: Search student records by ID  
-- **Dynamic Reports**: Generate insightful reports including:  
-  - Students scoring above a certain threshold  
-  - Students filtered by subject  
-  - Top N students based on marks  
-- **Input Validation**: Both client-side (JavaScript) and server-side (Servlets)  
-- **Responsive UI**: Built with Bootstrap for a professional look across devices  
-- **MVC Architecture**: Separation of concerns between model, view, and controller  
-- **MySQL Integration**: JDBC-based backend connectivity  
+- **Manage Student Marks**: Start by adding new student marks to the system  
+- **Update Student Marks**: Edit the marks of existing students easily  
+- **Delete Student Marks**: Remove a student's record using their ID  
+- **Display All Marks**: View all student marks in a table format  
+- **Generate Reports** based on different criteria:
+  - Show students scoring above a given mark  
+  - List students by subject  
+  - View top N students by marks  
+- **Input Checks**: Both client-side (JavaScript) and server-side (Servlet) validations  
+- **Responsive Design**: Looks great on all devices using Bootstrap 
+- **Database Integration**: Uses MySQL with JDBC for backend connectivity  
+
 
 ## 📋 Prerequisites
 
@@ -63,14 +66,14 @@ MarkWebApp/
 
 ## Database Setup
 
-### 1. Create Database
+### 1. Create Student Database 
 
 ```sql
 CREATE DATABASE IF NOT EXISTS mark_management;
 USE mark_management;
 ```
 
-### 2. Create Table
+### 2. Create StudentMarks Table
 
 ```sql
 CREATE TABLE IF NOT EXISTS StudentMarks (
@@ -139,8 +142,6 @@ http://localhost:8080/MarkWebApp/
 ### Generate Report
 #### Marks above threshold
 ![Report](Sample_Screenshots/Report1.png)
-
-## 🎯 Application Usage
 
 ## 🔧 Technical Features
 
