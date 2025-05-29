@@ -138,7 +138,7 @@ http://localhost:8080/MarkWebApp/
 
 ### Generate Report
 #### Marks above threshold
-![Report](Sample_Screenshots/Report22.png)
+![Report](Sample_Screenshots/Report1.png)
 
 ## 🎯 Application Usage
 
