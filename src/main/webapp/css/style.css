@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/* src/main/webapp/css/style.css */
+
+/* BODY */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #ffe0cc, #cce6ff); /* Peach to light blue gradient */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* HEADER */
+.main-header {
+    background-color: #005aa7;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* MAIN SECTION */
+.main-section {
+    flex: 1;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.main-section h2, h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* ACTION CARDS */
+.action-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-link {
+    display: block;
+    width: 250px;
+    padding: 15px 25px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 2px solid #005aa7;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #003f6b;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.card-link:hover {
+    background-color: rgba(0, 90, 167, 0.1);
+    transform: scale(1.03);
+}
+
+/* FORM BOX */
+.form-box {
+    background-color: #fefefe;
+    border: 1px solid #ccc;
+    padding: 25px 30px;
+    margin: 20px auto 30px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-box label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+}
+
+.form-box input,
+.form-box button {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.form-box input {
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+.form-box input:focus {
+    border-color: #005aa7;
+    background-color: #eef6ff;
+    outline: none;
+}
+
+.form-box button {
+    background-color: #005aa7;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-box button:hover {
+    background-color: #004080;
+}
+
+/* DELETE BUTTON */
+.btn.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* BACK LINK */
+.back-link {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #005aa7;
+    font-weight: 500;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* STATUS MESSAGE */
+.status-message {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+.main-footer {
+    background-color: #004080;      /* Deep blue background */
+    color: white;                   /* White text */
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    border-top: 1px solid #003366; /* Dark blue border */
+    box-shadow: inset 0 1px 5px rgba(255, 255, 255, 0.1); /* subtle highlight */
+}
+
+.main-footer + hr {
+    border-color: #003366;
+}
